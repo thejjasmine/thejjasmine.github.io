@@ -1,8 +1,20 @@
+@font-face {
+  font-family: roboto-light;
+  src: url(../fonts/Roboto-Light.ttf);
+}
 
+@font-face {
+  font-family: roboto-reg;
+  src: url(../fonts/Roboto-Regular.ttf);
+
+}
 body{
   background-color: #303030;
   color: #fff;
+  font-family: roboto-light;
+
 }
+
 h1{
   text-align: center;
   color: #ff9300;
