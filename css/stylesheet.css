@@ -1,6 +1,30 @@
 
+body{
+  background-color: #07090F;
+  color: #fff;
+}
+h1{
+  text-align: center;
+  color: #ff9300;
+}
+
+.navbar{
+  border-color: #777;
+  background-color: #333;
+  height: 90px;
+}
 .navbar-nav{
   margin: 0;
   padding-right: 0;
+  background-color: #333;
+}
+
+.navbar-brand{
+  background-color: #ff9300;
+  position: relative;
+  bottom: 30px;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
 }
 
