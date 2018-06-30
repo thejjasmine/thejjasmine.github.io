@@ -20,6 +20,10 @@ h1{
   color: #ff9300;
 }
 
+a:focus, a:hover {
+  color: #ff9300;
+}
+
 .headerbox {
   background-color: #212121;
   border-bottom: #777;
@@ -74,6 +78,14 @@ iframe{
 .icon-left{
   font-size: 30px;
   color: #ff9300;
+}
+.icon-right {
+  position: absolute;
+  right: 20px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 .meSafe-logo{
   display: block;
