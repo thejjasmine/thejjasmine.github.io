@@ -1,6 +1,9 @@
 {
   "short_name": "MeSafe",
   "name": "MeSafe",
+  "description": "#sheHacks2018",
+  "lang": "en-AU",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/images/phone.png",
