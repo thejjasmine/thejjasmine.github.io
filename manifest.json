@@ -6,7 +6,7 @@
   "dir": "ltr",
   "icons": [
     {
-      "src": "/images/manifesto.png",
+      "src": "/images/icon.png",
       "type": "image/png",
       "sizes": "144x144"
     },
