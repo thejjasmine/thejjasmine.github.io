@@ -36,6 +36,7 @@ h1{
   background-color: #212121;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .nav > li > .nav-phone__container {
   display: flex;
@@ -49,7 +50,7 @@ h1{
 .navbar-brand{
   background-color: #ff9300;
   position: relative;
-  bottom: 30px;
+  bottom: 18px;
   height: 90px;
   width: 90px;
   border-radius: 90px;
