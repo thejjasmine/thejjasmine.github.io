@@ -36,6 +36,7 @@ h1{
   background-color: #212121;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .nav > li > .nav-phone__container {
   display: flex;
