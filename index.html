@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png"href="images/icon.png" />
     <title>MeSafe</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
@@ -11,23 +12,21 @@
   </head>
   <body>
     <div class="headerbox container">
-      <h1>MeSafe</h1>
+      <img class="meSafe-logo" src="images/logo.png" alt="meSafe">
     </div>
     <iframe src="map.html" class="map"> </iframe>
 
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container-fluid">
         <div class="row">
-          <ul class="nav navbar-nav col-xs-4">
-            <li class="col-xs-6"><a href="#"><img src="images/Taxi.png" class="nav-icon nav-taxi" alt="Call a Taxi" ></a></li>
-            <li class="col-xs-6"><a href="#"><img src="images/text.png" class="nav-icon nav-text"  alt="Call a Taxi" ></a></li>
-          </ul>
-            <div class="navbar-header col-xs-4">
-              <a class="navbar-brand" href="tel:000"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
-            </div>
-          <ul class="nav navbar-nav col-xs-4">
-            <li class="col-xs-6"><a href="html/tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips" ></a></li>
-            <li class="col-xs-6"><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
+          <ul class="nav navbar-nav">
+            <li><a href="#"><img src="images/taxi.png" class="nav-icon nav-taxi" alt="Call a Taxi" ></a></li>
+            <li><a href="#"><img src="images/text.png" class="nav-icon nav-text"  alt="Text someone" ></a></li>
+            <li class="navbar-header">
+              <a class="navbar-brand nav-phone__container" href="tel:000"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
+            </li>
+            <li><a href="html/tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips"></a></li>
+            <li><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
           </ul>
         </div>
       </div>
