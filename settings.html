@@ -21,6 +21,7 @@
   </head>
   <body>
       <div class="headerbox container">
+        <a href="index.html" class="home-chevron"><span class="glyphicon glyphicon-menu-left icon-left" aria-hidden="true"></span></a>
           <h1>Settings</h1>
         </div>
         <div class="row">
@@ -33,34 +34,31 @@
           </div>
           <div class ="row">
             <div class="col-xs-12">
-              <button id="mainmenubtn"> <h4>Message Settings</h4> <img src="" </button>
-              
+             <button id="mainmenubtn">  <a href="messagesettings.html"><h4>Message Settings</h4> </a></button>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
-                <button id="mainmenubtn"> <h4>Transport Settings</h4> </button>
+                <button id="mainmenubtn">  <a href="transportsettings.html"><h4>Transport Settings</h4></a> </button>
             </div>
           </div>
       </div>
 
       <nav class="navbar navbar-default navbar-fixed-bottom">
-          <div class="container-fluid">
-            <div class="row">
-              <ul class="nav navbar-nav col-xs-4">
-                <li class="col-xs-6"><a href="#"><img src="images/Taxi.png" class="nav-icon nav-taxi" alt="Call a Taxi" ></a></li>
-                <li class="col-xs-6"><a href="#"><img src="images/text.png" class="nav-icon nav-text"  alt="Call a Taxi" ></a></li>
-              </ul>
-                <div class="navbar-header col-xs-4">
-                  <a class="navbar-brand" href="tel:000"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
-                </div>
-              <ul class="nav navbar-nav col-xs-4">
-                <li class="col-xs-6"><a href="html/tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips" ></a></li>
-                <li class="col-xs-6"><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
-              </ul>
-            </div>
+        <div class="container-fluid">
+          <div class="row">
+            <ul class="nav navbar-nav">
+              <li><a href="#"><img src="images/taxi.png" class="nav-icon nav-taxi" alt="Call a Taxi" ></a></li>
+              <li><a href="#"><img src="images/text.png" class="nav-icon nav-text"  alt="Text someone" ></a></li>
+              <li class="navbar-header">
+                <a class="navbar-brand nav-phone__container" href="tel:000"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
+              </li>
+              <li><a href="html/tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips"></a></li>
+              <li><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
