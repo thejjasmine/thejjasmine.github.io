@@ -60,10 +60,36 @@ Hello123
           </div>
       </div>
     </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+              <div class="row">
+                <ul class="nav navbar-nav">
+                  <li><a href="tel:0428778667"><img src="images/taxi.png" class="nav-icon nav-taxi" alt="Call a Taxi" ></a></li>
+                  <li><a id="textlink"><img src="images/text.png" class="nav-icon nav-text"  alt="Text someone" ></a></li>
+                  <li class="navbar-header">
+                    <a class="navbar-brand nav-phone__container" href="tel:0001"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
+                  </li>
+                  <li><a href="tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips"></a></li>
+                  <li><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+            var setTime = function() {
+              var date = new Date();
+              document.getElementById("textlink").setAttribute('href','sms:0428778667?body=Hi! It is ' + date.toLocaleTimeString() + ' and I am at latitude: -33.87085 Longitude: 151.20733. I do not feel safe. Please come and get me. Thanks, Hello123' )
+            };
+      
+            setTime();
+            setInterval(setTime, 1000);
+            
+           
+          </script>
   </body>
 </html>
