@@ -55,3 +55,8 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+
+.success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
