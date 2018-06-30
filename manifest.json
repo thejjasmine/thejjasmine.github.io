@@ -31,7 +31,7 @@
       "sizes": "44x44"
     }
   ],
-  "start_url": "/",
+  "start_url": "index.html",
   "background_color": "#ff9300",
   "display": "fullscreen",
   "theme_color": "#ff9300"
