@@ -12,11 +12,14 @@ body{
   background-color: #303030;
   color: #fff;
   font-family: roboto-light;
-
 }
 
 h1{
   text-align: center;
+  color: #ff9300;
+}
+
+a:focus, a:hover {
   color: #ff9300;
 }
 
@@ -36,6 +39,7 @@ h1{
   background-color: #212121;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .nav > li > .nav-phone__container {
   display: flex;
@@ -49,7 +53,7 @@ h1{
 .navbar-brand{
   background-color: #ff9300;
   position: relative;
-  bottom: 30px;
+  bottom: 18px;
   height: 90px;
   width: 90px;
   border-radius: 90px;
@@ -64,7 +68,7 @@ h1{
 
 iframe{
   width: 100%;
-  height: 510px;
+  height: 700px;
 }
 .home-chevron{
   position: absolute;
@@ -73,6 +77,14 @@ iframe{
 .icon-left{
   font-size: 30px;
   color: #ff9300;
+}
+.icon-right {
+  position: absolute;
+  right: 20px;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 .meSafe-logo{
   display: block;

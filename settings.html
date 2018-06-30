@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>MeSafe - Settings</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,24 +24,36 @@
         <a href="index.html" class="home-chevron"><span class="glyphicon glyphicon-menu-left icon-left" aria-hidden="true"></span></a>
           <h1>Settings</h1>
         </div>
-        <div class="row">
-            <div class="col-xs-6">
-            <h4 id="usernametitle">Username</h4>
+        <div class="container">
+          <div class="row setting-item">
+              <div class="col-xs-6">
+              <h4 id="usernametitle">Username</h4>
+              </div>
+              <div class="col-xs-6 text-right">
+                  <span id="usernametitle">Hello123</span>
+              </div>
             </div>
-            <div class="col-xs-6">
-                <p id="usernametitle">Hello123</p>
+            <div class="row setting-item">
+              <div class="col-xs-12">
+               <button id="mainmenubtn">
+                 <a href="messagesettings.html">
+                   <h4>Message Settings</h4>
+                   <span class="glyphicon glyphicon-menu-right icon-right" aria-hidden="true"></span>
+                 </a>
+               </button>
+              </div>
             </div>
-          </div>
-          <div class ="row">
-            <div class="col-xs-12">
-             <button id="mainmenubtn">  <a href="messagesettings.html"><h4>Message Settings</h4> </a></button>
+            <div class="row setting-item">
+              <div class="col-xs-12">
+                  <button id="mainmenubtn">
+                    <a href="transportsettings.html">
+                      <h4>Transport Settings</h4>
+                       <span class="glyphicon glyphicon-menu-right icon-right" aria-hidden="true"></span>
+                    </a>
+                  </button>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-                <button id="mainmenubtn"> <h4>Transport Settings</h4> </button>
-            </div>
-          </div>
+        </div>
       </div>
 
       <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -53,7 +65,7 @@
               <li class="navbar-header">
                 <a class="navbar-brand nav-phone__container" href="tel:000"><img src="images/phone.png" class="nav-icon nav-phone" alt="Phone Police" ></a>
               </li>
-              <li><a href="html/tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips"></a></li>
+              <li><a href="tips.html"><img src="images/tips.png" class="nav-icon nav-tips" alt="Safety Tips"></a></li>
               <li><a href="settings.html"><img src="images/settings.png" class="nav-icon nav-settings" alt="Settings"></a></li>
             </ul>
           </div>
