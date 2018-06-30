@@ -50,7 +50,9 @@ a:focus, a:hover {
   margin: 0;
 }
 
-.navbar-brand{
+.nav>li>a.navbar-brand,
+.nav>li>a.navbar-brand:hover,
+.nav>li>a.navbar-brand:focus{
   background-color: #ff9300;
   position: relative;
   bottom: 18px;
