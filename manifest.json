@@ -1,0 +1,35 @@
+{
+  "short_name": "MeSafe",
+  "name": "MeSafe",
+  "icons": [
+    {
+      "src": "/images/phone.png",
+      "type": "image/png",
+      "sizes": "46x46"
+    },
+    {
+      "src": "/images/settings.png",
+      "type": "image/png",
+      "sizes": "45x44"
+    },
+    {
+      "src": "/images/Taxi.png",
+      "type": "image/png",
+      "sizes": "48x44"
+    },
+    {
+      "src": "/images/Text.png",
+      "type": "image/png",
+      "sizes": "45x44"
+    },
+    {
+      "src": "/images/tips.png",
+      "type": "image/png",
+      "sizes": "44x44"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ff9300",
+  "display": "fullscreen",
+  "theme_color": "#ff9300"
+}
