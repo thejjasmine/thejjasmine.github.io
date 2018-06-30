@@ -12,7 +12,6 @@ body{
   background-color: #303030;
   color: #fff;
   font-family: roboto-light;
-
 }
 
 h1{
@@ -69,7 +68,7 @@ a:focus, a:hover {
 
 iframe{
   width: 100%;
-  height: 510px;
+  height: 700px;
 }
 .home-chevron{
   position: absolute;
