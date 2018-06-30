@@ -6,6 +6,34 @@
     background-color:  #303030;
     }
     
-    .row {
+.row {
         border-bottom: 1px solid #777;
+}
+
+a :hover{ 
+text-decoration: none!important;
+color: white;
+text-decoration-color: white;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+    }
+
+textarea ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: red;
+        opacity: 1; /* Firefox */
+    }
+
+textarea {
+        color: black;
+        width: 100%;
+        height: 200px;
+    }
+
+    .savebtn {
+        background-color: white;
+        color: black;
+        border: none;
     }
