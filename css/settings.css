@@ -60,3 +60,16 @@ textarea {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
+
+.setting-item input {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: right;
+  display: inline;
+}
+
+.setting-item input:hover,
+.setting-item input:focus {
+  background: #555;
+}
