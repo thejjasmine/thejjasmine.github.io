@@ -123,6 +123,24 @@
       // The map, centered at Commbank
       var map = new google.maps.Map(
           document.getElementById('map'), {zoom: 17, center: commbank, styles: theme});
+       var heatmap = new google.maps.visualization.HeatmapLayer({
+          data: [
+            new google.maps.LatLng(-33.877959, 151.201756),
+            new google.maps.LatLng(-33.877959, 151.202756),
+            new google.maps.LatLng(-33.877959, 151.203756),
+            new google.maps.LatLng(-33.877959, 151.202756),
+            new google.maps.LatLng(-33.877079, 151.205049),
+            new google.maps.LatLng(-33.880837, 151.207688),
+            new google.maps.LatLng(-33.880837, 151.207688),
+            new google.maps.LatLng(-33.878041, 151.207313),
+          
+
+
+          ],
+          map: map,
+          radius: 70,
+        });
+
       // The marker, positioned at Commbank
       var marker = new google.maps.Marker({position: commbank, map: map});
     }
@@ -133,7 +151,7 @@
     * The callback parameter executes the initMap() function
     -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEJ0BfOmpKSm2mL0Ms_hh1nBul1Bd6Rik&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEJ0BfOmpKSm2mL0Ms_hh1nBul1Bd6Rik&libraries=visualization&callback=initMap">
     </script>
   </body>
 </html>
