@@ -120,11 +120,27 @@
               featureType: 'water',
               elementType: 'labels.text.stroke',
               stylers: [{color: '#17263c'}]
-            }
-          ];
+            },
+          
+          {
+            featureType: 'poi',
+            stylers: [{visibility: 'off'}]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'labels.icon',
+            stylers: [{visibility: 'off'}]
+          }];
       // The map, centered at Commbank
       var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 18, center: commbank, styles: theme});
+          document.getElementById('map'), {zoom: 18, center: commbank, styles: theme,
+          scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP});
+
       var gradient = [
         // Clear
         'rgba(255, 0, 0, 0.0)',
@@ -173,11 +189,37 @@
 
 
 
-      var marker = new google.maps.Marker({position: {lat: -33.877959, lng: 151.201756}, map: map, icon: {
-        url: 'images/Police station.png',
+      var marker = new google.maps.Marker({position: {lat: -33.8753126, lng: 151.2039106}, map: map, icon: {
+        url: 'images/police-station.png',
+        scaledSize: {width: 50, height: 50},
+      }});
+    
+
+      var marker = new google.maps.Marker({position: {lat: -33.8790284, lng: 151.2043234}, map: map, icon: {
+        url: 'images/populated-places.png',
+        scaledSize: {width: 50, height: 50},
+      }});
+       var marker = new google.maps.Marker({position: {lat: -33.8797849, lng: 151.2042823}, map: map, icon: {
+        url: 'images/populated-places.png',
+        scaledSize: {width: 50, height: 50},
+      }});
+
+    
+    
+      var marker = new google.maps.Marker({position: {lat: -33.8807531, lng: 151.202833}, map: map, icon: {
+        url: 'images/emergency-services.png',
+        scaledSize: {width: 50, height: 50},
+      }});
+      var marker = new google.maps.Marker({position: {lat: -33.870778, lng: 151.2069428}, map: map, icon: {
+        url: 'images/emergency-services.png',
+        scaledSize: {width: 50, height: 50},
+      }});
+      var marker = new google.maps.Marker({position: {lat: -33.8800038, lng: 151.2054721}, map: map, icon: {
+        url: 'images/police-station.png',
         scaledSize: {width: 50, height: 50},
       }});
     }
+
     </script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
