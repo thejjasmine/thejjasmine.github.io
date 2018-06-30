@@ -1,7 +1,33 @@
-.tips-container{
 
+.tips-container{
+  text-align: center;
+  padding-bottom: 110px;
+}
+  
+.tips-container h3{
+  color: #ff9300;
+  font-size: 20px;
 }
 
-.tips-container ul{
-  list-style-type: none;
+.tips-container .dark-row{
+  background-color: #212121;
+}
+
+.tips-row{
+  padding: 20px;
+}
+.icon-tip-one{
+  position: relative;
+  top: 15px;
+  right: 5px;
+}
+.icon-tip-two{
+  position: relative;
+  top: 20px;
+  right: 5px;
+}
+.icon-tip-three{
+  position: relative;
+  top: 20px;
+  left: 10px;
 }

@@ -90,3 +90,6 @@ iframe{
   display: block;
   margin: auto;
 }
+a .icon-left:hover{
+  color: #ff9300;
+}
