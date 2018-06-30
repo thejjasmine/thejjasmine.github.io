@@ -1,11 +1,15 @@
 
 body{
-  background-color: #07090F;
+  background-color: #303030;
   color: #fff;
 }
 h1{
   text-align: center;
   color: #ff9300;
+}
+
+.headerbox { 
+  background-color: 212121;
 }
 
 .navbar{
